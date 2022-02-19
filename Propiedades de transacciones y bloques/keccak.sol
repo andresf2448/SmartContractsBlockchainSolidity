@@ -3,7 +3,6 @@ pragma solidity >=0.4.4 <0.7.0;
 pragma experimental ABIEncoderV2;
 
 contract hash{
-    
     //Computo del hash de un string
     function calcularHash(string memory _cadena) public pure returns(bytes32){
         return keccak256(abi.encodePacked(_cadena));
