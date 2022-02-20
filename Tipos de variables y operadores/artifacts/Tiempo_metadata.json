@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.6.0+commit.26b70077"
+		"version": "0.8.0+commit.c7dfd78e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -124,10 +124,14 @@
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
@@ -147,10 +151,11 @@
 	},
 	"sources": {
 		"Tipos de variables y operadores/unidades_tiempo.sol": {
-			"keccak256": "0xe9cec9475de67a161154b4fcbdbfd1416577f0ff6d72cd5c60ae0a0701d7b9aa",
+			"keccak256": "0x9dff755018e5c19bb02877b34446abbb83fbda2eb62078b62e85c6cdb8dec13b",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://6da414c3eea7d2bde6f12577b0b2f53bcbb81b201196406072660db9057ed9ec",
-				"dweb:/ipfs/Qmb59gYbCqdNk53xnf2K7wQFedLG9E5NxcqYP1aiHpi4iN"
+				"bzz-raw://6cedc516fc00f63744949ea2b345739d090668633e578c5cdc32b565835bda97",
+				"dweb:/ipfs/Qmb3j85L4RgEXFrPzefipWoWJ6YBv6RCpEax4FBYs3xyCL"
 			]
 		}
 	},

@@ -1,8 +1,10 @@
-pragma solidity >=0.4.4 <0.7.0;
+//SPDX-License-Identifier: GPL-3.0
+pragma solidity >=0.7.0 < 0.9.0;
+//pragma solidity >=0.4.4 <0.7.0; cuando trabajamos con esta version debemos cambiar el block.timestamp por now
 
 contract Tiempo{
     //unidades de tiempo
-    uint public tiempo_actual = now;
+    uint public tiempo_actual = block.timestamp;
     uint public un_minuto = 1 minutes;
     uint public dos_horas = 2 hours;
     uint public cincuenta_dias = 50 days;
@@ -10,18 +12,18 @@ contract Tiempo{
 
     //operaciones
     function masSegundos() public view returns(uint){
-        return now + 50 seconds;
+        return block.timestamp + 50 seconds;
     }
     
     function masHoras() public view returns(uint){
-        return now + 1 hours;
+        return block.timestamp + 1 hours;
     }
 
     function masDias() public view returns(uint){
-        return now + 3 days;
+        return block.timestamp + 3 days;
     }
 
     function masSemanas() public view returns(uint){
-        return now + 1 weeks;
+        return block.timestamp + 1 weeks;
     }
 }
