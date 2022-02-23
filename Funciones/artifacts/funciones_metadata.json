@@ -147,6 +147,25 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					}
+				],
+				"name": "prueba",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -177,11 +196,11 @@
 	},
 	"sources": {
 		"Funciones/funciones.sol": {
-			"keccak256": "0x942f9d3117ec41a80eb80cbae0413b99f8c6a56bcbded114f04057156097fe12",
+			"keccak256": "0x53fc565a0849e0740bb6325f51ead11d86a9ac7cb67e2ab0a2df90bc83e46fd3",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c9e53d774fb24ee7bd487c6a29f1302ebcab0cd1aac969b5ffe25fc7c6d957e3",
-				"dweb:/ipfs/QmNPUTkiAuwWYosVzzareNS5v5KS8vmjaV9yG8uHkkk7AJ"
+				"bzz-raw://41303c5b2d5fc77a467087af80bc3f0bdc7b71fa9b021a6f045704e45168920d",
+				"dweb:/ipfs/QmeB7411SYKbvc2MUochqTZhF2paNURd7A9LnckgtBaWJD"
 			]
 		}
 	},
